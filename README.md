@@ -67,7 +67,15 @@ Example request:
   "location": "Cape Town"
 }
 
-5. Testing the System
+5. Get All Transactions
+
+GET /api/transactions
+
+6. Get Fraudulent Transactions
+
+GET /api/transactions/fraud
+
+7. Testing the System
 
 You can test the system using Swagger.
 
@@ -92,5 +100,5 @@ Normal Transaction
 Small amount, normal category
 Expected: not fraud
 
-6. Stopping the System
+8. Stopping the System
  docker-compose down
